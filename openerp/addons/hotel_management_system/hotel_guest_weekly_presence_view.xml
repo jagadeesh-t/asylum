@@ -35,8 +35,8 @@
             <field name="model">hotel.guest.points</field>
             <field name="arch" type="xml">
                 <search string="Guest Points">
-                    <field name="date"/>
-                    <field name="guest_id"/>
+                    <field name="date" string="Points gained on"/>
+                    <field name="guest_id" string="Guest name"/>
                 </search>
             </field>
         </record>
